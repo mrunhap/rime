@@ -1,10 +1,5 @@
-# options: last | default | _custom_
-# last: the last used latin keyboard layout
-# default: US (ABC) keyboard layout
-# _custom_: keyboard layout of your choice, e.g. 'com.apple.keylayout.USExtended' or simply 'USExtended'
-# keyboard_layout: dvorak # maybe change to dvorak
-
 patch:
+  keyboard_layout: Dvorak
   app_options:
     com.raycast.macos:
       ascii_mode: true
